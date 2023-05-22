@@ -35,53 +35,56 @@
 			</section>
 
 			<!-- Form -->
-			<main class="mx-5">
+			<main class="mx-md-2 mx-lg-5">
 				<div class="container-fluid my-2 bg-gray7">
 					<form id="stepped" action="#" method="post">
 						<div class="row">
-							<div class="col-12 py-4 bg-gray6">
-								<div class="fix-height position-relative">
+							<div class="col-lg-12 py-4 bg-gray6">
+								<div class="fix-height position-relative d-flex align-centent-bottom">
 									<div class="steps">
+
+										<!-- Row 1 -->
 										<div class="row justify-content-center">
-											<div class="col-12 col-lg-4">
+											<div class="col-6 col-md-6 col-lg-4">
 												<div class="form-group">
 													<label for="first_name">First name</label>
 													<input type="text" id="first_name" class="form-control">
 												</div>
 											</div>
-											<div class="col-12 col-lg-4">
+											<div class="col-6 col-md-6 col-lg-4">
 												<div class="form-group">
 													<label for="last_name">Last name</label>
 													<input type="text" id="last_name" class="form-control">
 												</div>
 											</div>
-											<div class="col-12 col-lg">
+											<div class="col-6 col-md-6 col-lg-4">
 												<div class="form-group">
 													<label for="dob">Date of birth</label>
 													<input type="text" id="dob" class="form-control">
 												</div>
 											</div>
-										</div>
-										<div class="row justify-content-center">
-											<div class="col pe-4">
+											<div class="col-6 col-md-6 col-lg-4">
 												<div class="form-group">
 													<label for="phone">Phone</label>
 													<input type="text" id="phone" class="form-control">
 												</div>
 											</div>
-											<div class="col pe-4">
+
+											<div class="col-4 col-md-6 col-lg-4">
 												<div class="form-group">
 													<label for="ssn">Social security number</label>
 													<input type="text" id="ssn" class="form-control">
 												</div>
 											</div>
-											<div class="col">
+											<div class="col-8 col-md-6 col-lg-4">
 												<div class="form-group">
-													<label for="email">Email</label>
+													<label for="email" class="pt-4 pt-sm-0">Email</label>
 													<input type="text" id="email" class="form-control">
 												</div>
 											</div>
-										</div>
+
+										</div> <!-- Row 1 -->
+
 										<div class="row justify-content-center">
 											<div class="col pe-md-4">
 												<div class="form-group">
@@ -105,13 +108,13 @@
 											</div>
 											<div class="col pe-md-4">
 												<div class="form-group">
-													<label for="num_kids">Number of kids</label>
+													<label for="num_kids" class="pt-4 pt-sm-0">Number of kids</label>
 													<input type="text" id="num_kids" class="form-control">
 												</div>
 											</div>
 											<div class="col">
 												<div class="form-group">
-													<label for="num_pets">Number of pets</label>
+													<label for="num_pets" class="pt-4 pt-sm-0">Number of pets</label>
 													<input type="text" id="num_pets" class="form-control">
 												</div>
 											</div>
@@ -126,7 +129,9 @@
 								<button type="button" class="btnPrev btn btn-outline-success">Prev</button>
 								<button type="button" class="btnNext btn btn-outline-success">Next</button>
 							</div>
-						</div>
+
+						</div> <!-- Content Row -->
+
 					</form>
 				</div>
 			</main>
