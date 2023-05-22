@@ -1,6 +1,9 @@
 [![Contact me on Codementor](https://www.codementor.io/m-badges/boonecabal/im-a-cm-g.svg)](https://www.codementor.io/@boonecabal?refer=badge)
 
-Creating page layout for new_application.py
+# new_application Multi-Step Form
+
+* Got bootstrap code for new_application.html working on all devices
+# Creating page layout for new_application.py
 
 I figured out how to center a container.  This is the code for it:
 

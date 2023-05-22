@@ -75,4 +75,3 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 	let MS = new MultiStep("#stepped");
  });
- 
